@@ -52,8 +52,10 @@ matrix = [
 ]
 
 game = ZeroSumGame(matrix)
+# getting the indices of saddle points
 print(game.get_saddle_point_idx())
 # Output: [(1, 0)]
+# getting all the saddle points
 print(game.get_saddle_points())
 # Output: [(47, 53)]
 ```

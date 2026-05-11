@@ -54,6 +54,8 @@ matrix = [
 game = ZeroSumGame(matrix)
 print(game.get_saddle_point_idx())
 # Output: [(1, 0)]
+print(game.get_saddle_points())
+# Output: [(47, 53)]
 ```
 
 ### Finding a Nash Equilibrium (Varying-Sum)
